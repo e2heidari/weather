@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b827d8a5fcaa6af004f42378d07550d2`
+        `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=82eddd64ff36ae986bb99ea5ea33c80f`
       )
       .then((result) => {
         console.log("App -> result", result);
